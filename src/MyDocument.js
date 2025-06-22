@@ -68,12 +68,36 @@ const MyDocument = () => {
           <Text style={{
             fontSize: 12,
             textAlign: "left",
+            letterSpacing: -5.5,
+            lineHeight: 1.5,
+            margin: 10
+          }}>销 售 订 单 往 来 位 名 称 制 时 间 收 货 地 址 北 京 市 东 城 区 西 长 安 街 天 门 楼 人 尘 序 号</Text>
+
+        </View>
+        
+        {/* 测试不同的 letterSpacing 值 */}
+        <View>
+          <Text style={{
+            fontSize: 12,
+            textAlign: "left",
+            letterSpacing: -10.5,
+            lineHeight: 1.5,
+            margin: 10
+          }}>销 售 订 单 往 来 位 名 称 制 时 间 收 货 地 址 北 京 市 东 城 区 西 长 安 街 天 门 楼 人 尘 序 号</Text>
+
+        </View>
+        
+        <View>
+          <Text style={{
+            fontSize: 12,
+            textAlign: "left",
             letterSpacing: -1.5,
             lineHeight: 1.5,
             margin: 10
           }}>销 售 订 单 往 来 位 名 称 制 时 间 收 货 地 址 北 京 市 东 城 区 西 长 安 街 天 门 楼 人 尘 序 号</Text>
 
         </View>
+
         <View>
           <Text style={{
             fontSize: 12,
