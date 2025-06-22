@@ -7,6 +7,9 @@ import { Page, Text, View, Document, StyleSheet, Font } from "@react-pdf/rendere
 // 思源黑体压缩版
 // import SiYuanHeiTiMedium from "./font/SourceHanSansSC-Medium_dehint2.002.1.ttf";
 
+// 思源黑体精简版-全部
+// import SiYuanHeiTiMedium from "./font/lite_all_chars.ttf";
+
 // 思源黑体精简版-部分
 import SiYuanHeiTiMedium from "./font/lite_all_chars_part.ttf";
 
@@ -70,7 +73,7 @@ const MyDocument = () => {
             textAlign: "left",
             lineHeight: 1.5,
             margin: 10
-          }}>销售订单往来位名称制时间收货地址北京市东城区西长安街天门楼人序号</Text>
+          }}>销售订单往来位名称制时间收货地址北京市东城区西长安街天门楼人尘序号</Text>
 
         </View>
         <View>
@@ -81,7 +84,7 @@ const MyDocument = () => {
             textAlign: "left",
             lineHeight: 1.5,
             margin: 10
-          }}>商品编码规格数量单位价金额小计备注比例辅助循环满减分类多件个包</Text>
+          }}>商品编码规格数量单位价金额小计备注比例辅助循环满减分类圾多件个包</Text>
         </View>
 
         <View>
