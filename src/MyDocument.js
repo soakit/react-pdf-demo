@@ -13,6 +13,9 @@ import { Page, Text, View, Document, StyleSheet, Font } from "@react-pdf/rendere
 // 思源黑体精简版-部分
 import SiYuanHeiTiMedium from "./font/lite_all_chars_part.ttf";
 
+// 思源黑体精简版-全部-spider
+// import SiYuanHeiTiMedium from "./font/spider_lite_all_chars.ttf";
+
 Font.register({
   family: "siyuanheiti",
   fonts: [
