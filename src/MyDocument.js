@@ -11,10 +11,10 @@ import { Page, Text, View, Document, StyleSheet, Font } from "@react-pdf/rendere
 // import SiYuanHeiTiMedium from "./font/lite_all_chars.ttf";
 
 // 思源黑体精简版-部分
-import SiYuanHeiTiMedium from "./font/lite_all_chars_part.ttf";
+// import SiYuanHeiTiMedium from "./font/lite_all_chars_part.ttf";
 
 // 思源黑体精简版-全部-spider
-// import SiYuanHeiTiMedium from "./font/spider_lite_all_chars.ttf";
+import SiYuanHeiTiMedium from "./font/spider_lite_all_chars.ttf";
 
 Font.register({
   family: "siyuanheiti",
@@ -33,16 +33,16 @@ const styles = StyleSheet.create({
     backgroundColor: "#ffffff"
   },
   section: {
-    margin: 10,
-    width: 300,
-    wordBreak: "break-all",
-    // padding: 10,
-    // flexGrow: 1
-    alignItems: "center",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    flexDirection: "row",
-    backgroundColor: "#ffffff",
+    // margin: 10,
+    // width: 300,
+    // wordBreak: "break-all",
+    // // padding: 10,
+    // // flexGrow: 1
+    // alignItems: "center",
+    // flexWrap: "wrap",
+    // justifyContent: "center",
+    // flexDirection: "row",
+    // backgroundColor: "#ffffff",
   }
 });
 
@@ -64,25 +64,19 @@ const MyDocument = () => {
       // ]}
 
       >
-        <View style={{
-          ...styles.section,
-          width: "100%",
-          flexDirection: "column"
-        }}>
+        <View>
           <Text style={{
             fontSize: 12,
-            fontFamily: "siyuanheiti",
-            width: "100%",
             textAlign: "left",
+            letterSpacing: -1.5,
             lineHeight: 1.5,
             margin: 10
-          }}>销售订单往来位名称制时间收货地址北京市东城区西长安街天门楼人尘序号</Text>
+          }}>销 售 订 单 往 来 位 名 称 制 时 间 收 货 地 址 北 京 市 东 城 区 西 长 安 街 天 门 楼 人 尘 序 号</Text>
 
         </View>
         <View>
           <Text style={{
             fontSize: 12,
-            fontFamily: "siyuanheiti",
             width: "100%",
             textAlign: "left",
             lineHeight: 1.5,
