@@ -9,11 +9,22 @@ npm run start
 
 ## SourceHanSansSC-Medium_dehint2.002.1.ttf
 
+```shell
+ttfautohint --dehint input.ttf output.ttf
+```
+
 pdf 内容展示 ok
 
 ## SourceHanSansSC-Medium-Min.ttf
 
 pdf 内容展示不全，大部分字展示不了。
+
+```shell
+ttfautohint SourceHanSansSC-Medium-Min.ttf SourceHanSansSC-Medium-Min-hinted.ttf
+ttfautohint --dehint SourceHanSansSC-Medium-Min-hinted.ttf SourceHanSansSC-Medium-Min-dehint.ttf
+```
+
+pdf 内容展示 ok。letterSpacing 也 ok。
 
 ## lite_all_chars_part.ttf
 
@@ -27,11 +38,17 @@ pyftsubset "src/font/SourceHanSansSC-Medium_dehint2.002.1.ttf" --text-file="lite
 
 ## lite_all_chars.ttf
 
-pdf 内容展示不全，大部分字展示不了。基于`SourceHanSansSC-Medium_dehint2.002.1.ttf`和`lite_all_chars.txt`。
-
 ```shell
 pyftsubset "src/font/SourceHanSansSC-Medium_dehint2.002.1.ttf" --text-file="lite_all_chars.txt" --output-file="src/font/lite_all_chars.ttf"
 ```
+
+pdf 内容展示不全，大部分字展示不了。基于`SourceHanSansSC-Medium_dehint2.002.1.ttf`和`lite_all_chars.txt`。
+
+```shell
+ttfautohint lite_all_chars.ttf lite_all_chars-hinted.ttf
+```
+
+pdf 内容展示 ok。但是无法 letterSpacing（pdf 换行）。
 
 ## spider_lite_all_chars.ttf
 

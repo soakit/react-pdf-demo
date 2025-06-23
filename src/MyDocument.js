@@ -8,20 +8,21 @@ import {
   Font,
 } from "@react-pdf/renderer";
 
-// 会缺字
-// import SiYuanHeiTiMedium from "./font/SourceHanSansSC-Medium-Min.ttf";
+import SiYuanHeiTiMedium from "./font/SourceHanSansSC-Medium-Min-dehint.ttf";
 
 // 思源黑体压缩版
 // import SiYuanHeiTiMedium from "./font/SourceHanSansSC-Medium_dehint2.002.1.ttf";
+// import SiYuanHeiTiMedium from "./font/SourceHanSansSC-Medium_dehint2.004.ttf";
+// import SiYuanHeiTiMedium from "./font/SourceHanSansSC-Medium_dehint2.005.ttf";
 
 // 思源黑体精简版-全部
-// import SiYuanHeiTiMedium from "./font/lite_all_chars.ttf";
+// import SiYuanHeiTiMedium from "./font/lite_all_chars-hinted.ttf";
 
 // 思源黑体精简版-部分
 // import SiYuanHeiTiMedium from "./font/lite_all_chars_part.ttf";
 
 // 思源黑体精简版-全部-spider
-import SiYuanHeiTiMedium from "./font/spider_lite_all_chars.ttf";
+// import SiYuanHeiTiMedium from "./font/spider_lite_all_chars.ttf";
 
 Font.register({
   family: "siyuanheiti",
