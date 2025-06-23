@@ -24,7 +24,7 @@ ttfautohint SourceHanSansSC-Medium-Min.ttf SourceHanSansSC-Medium-Min-hinted.ttf
 ttfautohint --dehint SourceHanSansSC-Medium-Min-hinted.ttf SourceHanSansSC-Medium-Min-dehint.ttf
 ```
 
-pdf 内容展示 ok。letterSpacing 也 ok。
+pdf 内容展示 ok。letterSpacing 也 ok。缺少部分字，比如佰、仟等。
 
 ## lite_all_chars_part.ttf
 
@@ -46,6 +46,7 @@ pdf 内容展示不全，大部分字展示不了。基于`SourceHanSansSC-Mediu
 
 ```shell
 ttfautohint lite_all_chars.ttf lite_all_chars-hinted.ttf
+ttfautohint --dehint lite_all_chars-hinted.ttf lite_all_chars-dehint.ttf
 ```
 
 pdf 内容展示 ok。但是无法 letterSpacing（pdf 换行）。
